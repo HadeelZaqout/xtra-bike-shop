@@ -1,47 +1,74 @@
-# XTRA Bike Shop — React + Vite
+<div align="center">
 
-A pixel-perfect React recreation of the XTRA Bike Shop WordPress theme, built for study purposes.
+# XTRA Bike Shop
+### React E-Commerce Frontend
 
-## Getting Started
+*A pixel-perfect React recreation of the XTRA Bike Shop WordPress theme — built for study purposes during my internship.*
 
-**Requirements:** Node.js 18+ and npm (or pnpm/yarn)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-```bash
-# Install dependencies
-npm install
+</div>
 
-# Start the dev server (opens at http://localhost:5173)
-npm run dev
+---
 
-# Build for production
-npm run build
+## 📋 About
 
-# Preview the production build
-npm run preview
-```
+This project is a **pixel-perfect recreation** of the XTRA Bike Shop WordPress theme, rebuilt from scratch in React — not a clone of the code, a clone of the *design*, done to practice matching a real, polished UI exactly using modern frontend tooling.
 
-## Pages
+Built during my internship at **Webura**, a software services company (Jun–Aug 2026).
+
+## 🧩 Pages
 
 | Route | Page |
 |---|---|
 | `/` | Home |
 | `/services` | Services |
-| `/blog` | Blog |
 | `/shop` | Shop |
+| `/blog` | Blog |
 | `/faq` | FAQ |
 | `/contact` | Contact |
 
-## Tech Stack
+## 🏗️ What's Inside
 
-- React 19 + TypeScript
-- Vite 6
-- Wouter (client-side routing)
-- Bootstrap 5 + Bootstrap Icons
-- AOS (scroll animations)
-- Fontsource (Inter + Poppins)
+- **Client-side routing** with Wouter across 6 pages
+- **Cart & wishlist state** managed with React Context + `useReducer` (not just `useState` — proper action-based state updates)
+- **Scroll animations** with AOS
+- Custom preloader, floating action buttons, and offcanvas cart/menu — all rebuilt from the original theme's interaction patterns
+
+## ⚙️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | React 19 + TypeScript |
+| Build Tool | Vite 6 |
+| Routing | Wouter |
+| Styling | Bootstrap 5 + Bootstrap Icons |
+| Animation | AOS |
+
+## 🚀 Running Locally
+
+```bash
+git clone https://github.com/HadeelZaqout/xtra-bike-shop.git
+cd xtra-bike-shop
+npm install
+npm run dev
+```
+
+Opens at `http://localhost:5173`
 
 ## Notes
 
-- All product images are loaded from the xtratheme.com CDN
-- No backend required — this is a purely frontend/presentational project
-- Cart and wishlist state is managed in React context (resets on page refresh)
+- Product images are loaded from the original theme's CDN for visual accuracy
+- Purely frontend — no backend, cart/wishlist state resets on refresh
+- Built to practice matching a real production UI exactly, not as an original design
+
+---
+
+<div align="center">
+
+Built by [Hadeel Zaqout](https://github.com/HadeelZaqout) during the Webura internship
+
+</div>
